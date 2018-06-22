@@ -1,11 +1,3 @@
----
-categories: null
-comments: true
-date: 2014-12-01T22:43:09Z
-title: How to Install the Google Play Store on Your Amazon Fire Phone
-url: /2014/12/01/how-to-install-the-play-store-on-your-fire-phone/
----
-
 ## Background 
 The last few days Amazon has been
 [having a "fire sale"](http://www.cnet.com/news/amazon-slashes-price-of-unlocked-fire-phone-to-199/)
