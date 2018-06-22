@@ -1,0 +1,10 @@
+title = "Setting up an IPython Development Environment from Source"
+date = "2014-06-15T22:40:00Z"
+keywords = [
+  "IPython",
+  "Python",
+  "PySide",
+  "ZeroMQ",
+  "Tutorial",
+]
+format = "markdown"
