@@ -1,6 +1,6 @@
 **UPDATE 2014-08-30**: For a way to handle message passing using the 
 [chromeps](https://github.com/anderspitman/chromeps) pubsub module, see
-[this post](http://anderspitman.com/blog/2014/08/30/chrome-extension-pubsub/).
+[this post](https://anderspitman.net/blog/chrome-extension-pubsub/).
 
 ## Background Info
 

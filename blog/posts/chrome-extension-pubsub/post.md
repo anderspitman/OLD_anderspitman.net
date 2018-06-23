@@ -1,5 +1,5 @@
 This tutorial builds the same Chrome extension popup as my
-[Chrome Extension Content Script Stylesheet Isolation](http://anderspitman.com/blog/2014/08/04/chrome-extension-content-script-stylesheet-isolation/)
+[Chrome Extension Content Script Stylesheet Isolation](https://anderspitman.net/blog/chrome-extension-content-script-stylesheet-isolation/)
 tutorial, but uses the [chromeps](https://github.com/anderspitman/chromeps) pubsub module to make things easier.
 For more detailed information, I highly recommend looking through that tutorial.
 
