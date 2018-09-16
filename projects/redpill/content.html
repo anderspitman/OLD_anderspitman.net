@@ -1,5 +1,4 @@
 <main>
-
   <p>
     <code>redpill</code> is a JavaScript visualization inspired by the
     <a href="https://en.wikipedia.org/wiki/Matrix_digital_rain">
@@ -12,23 +11,13 @@
   </p>
   <p>
     Interactive embedded demo is below (might take a bit to start up since it
-    has to download some snippets from GitHub). 
+    has to download some snippets from GitHub). Full screen demo
+    <a href="https://anderspitman.net/apps/redpill">here.</a>
+    I've found it really fun to watch, especially since you can recognize
+    little pieces of code you wrote recently. For example, while developing
+    this project, most of the code shown was from redpill itself, which seems
+    like a fitting sort of recursive property given the source of inspiration.
   </p>
-
-  <div id="header" style="font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 40px;">
-    <div>Enter a GitHub username</div>
-    <input id="username" type="text" value="anderspitman" />
-    <input id="submit" type="button" value="Restart" ></input>
-  </div>
-  <div id='root' style="height: 400px;"></div>
-
   <p>
     It's designed to be easy to add to any web page. Basically just give it
     the id of a div. Details on installation can be found in the code repo
@@ -36,10 +25,8 @@
   </p>
 
   <p>
-    I've found it really fun to watch, especially since you can recognize
-    little snippets you wrote recently. For example, while developing this
-    project, most of the code shown was from redpill itself, which seemed like
-    a fitting sort of recursive property given the source of inspiration.
+    Note that if you load it too many times from the same IP GitHub's rate
+    limiting will kick in.
   </p>
 
   <h1>Future Plans</h1>
@@ -54,10 +41,25 @@
       closely. Possibly switch to WebGL (currently uses canvas).
     </li>
     <li>
-      Syntax highlighting
+      Syntax highlighting.
+    </li>
+    <li>
+      Handle GitHub's rate limiting gracefully.
     </li>
   </ul>
-
+  <div id="header" style="font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;">
+    <div>Enter a GitHub username</div>
+    <input id="username" type="text" value="anderspitman" />
+    <input id="submit" type="button" value="Restart" ></input>
+  </div>
+  <div id='root' style="height: 400px;"></div>
 
   <script src='/projects/redpill/bundle.js'></script>
 </main>
