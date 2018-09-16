@@ -1,0 +1,4 @@
+title = "redpill"
+filename = "content.html"
+format = "html"
+js_file = "bundle.js"
