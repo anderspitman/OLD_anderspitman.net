@@ -1,4 +1,4 @@
-import { Rainer } from 'redpill';
+import { Rainer } from 'redpill-rain';
 
 
 const usernameInput = document.getElementById('username')

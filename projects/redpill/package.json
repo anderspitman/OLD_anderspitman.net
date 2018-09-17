@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redpill": "file:../../../redpill"
+    "redpill-rain": "^0.1.0"
   },
   "devDependencies": {
     "webpack": "^4.19.0",
