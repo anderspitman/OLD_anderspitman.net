@@ -1,0 +1,26 @@
+{
+  "name": "anderspitman.net-assg",
+  "version": "0.1.0",
+  "description": "This is designed to be used in conjunction with [assg](https://github.com/anderspitman/assg), which uses this content to generate a static site for anderspitman.net.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderspitman/anderspitman.net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderspitman/anderspitman.net/issues"
+  },
+  "homepage": "https://github.com/anderspitman/anderspitman.net#readme",
+  "dependencies": {
+    "redpill-rain": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
