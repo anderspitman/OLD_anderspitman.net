@@ -1,3 +1,6 @@
+**Update 2019-05-22**: There is now a Russian translation of this post
+[here](http://softdroid.net/sozdanie-svyazannogo-odnofaylovogo-prilozheniya). Thanks Vlad!
+
 This tutorial will cover the basics of creating a minimal React app which can
 be deployed as a statically-linked Rust binary. What this accomplishes is
 having all of your code, including HTML, JavaScript, CSS, and Rust, packaged
